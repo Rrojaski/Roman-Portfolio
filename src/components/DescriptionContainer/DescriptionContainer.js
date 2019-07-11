@@ -27,7 +27,7 @@ class DescriptionContainer extends React.Component {
         <div className="desc-container flex-container">
           <h2 className="font-lg desc-h2">Hi.</h2>
           <p className="font-md desc-p">
-            I'm a Junior Frontend Developer/Designer based in Plano, TX. I have
+            I'm a Junior Frontend Developer/Designer based in Jacksonville, FL. I have
             a passion for web development and I love to create new things for
             the web and mobile devices.
           </p>
