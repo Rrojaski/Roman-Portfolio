@@ -1,0 +1,44 @@
+/* Color Pallet */
+$black: #060222;
+$light-green: rgb(224, 235, 232);
+$green: rgb(74, 177, 154);
+
+
+.title-container {
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+}
+.title {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.title-h1 {
+  color: $green;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.title-h2 {
+  margin-bottom: 40px;
+}
+.icon-container {
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.svg-icon {
+  color: $green;
+  margin: 0 90px;
+  font-size: 55px;
+}
+.svg-icon:hover {
+  cursor: pointer;
+  color: darkgreen;
+}
+.desk-container {
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.desk-img {
+  width: 85%;
+  max-width: 610px;
+}

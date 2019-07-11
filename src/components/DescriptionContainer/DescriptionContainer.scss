@@ -1,0 +1,41 @@
+@media only screen and (min-width: 992px) {
+  .desc-container {
+    flex-basis: 50% !important;
+    max-width: 500px !important;
+    line-height: 2.1em;
+  }
+  .desc-container p {
+    font-size: 1.5em;
+  }
+}
+
+.description {
+  background: white;
+  padding-top: 25px;
+  flex-direction: column;
+  align-items: center;
+}  
+.desc-container {
+  margin: auto;
+  flex-basis: 100%;
+  max-width: 76%;
+  padding: 0 20px;
+  padding-top: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+.description .logo {
+  background: lightgray;
+  min-width: 145px;
+  min-height: 145px;
+  width: 145px;
+  height: 145px;
+  margin-bottom: 60px;
+}
+.desc-h2 {
+  margin-bottom: 50px;
+}
+.desc-p {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
