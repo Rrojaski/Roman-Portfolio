@@ -4,6 +4,7 @@ import '../Standard.scss';
 import TitleContainer from '../components/TitleContainer/TitleContainer';
 import DescriptionContainer from '../components/DescriptionContainer/DescriptionContainer';
 import Space from '../components/Space/Space';
+import SkillContainer from '../components/SkillContainer/SkillContainer';
 
 const Home = (props) => {
   return (
@@ -11,6 +12,7 @@ const Home = (props) => {
       <TitleContainer />
       <DescriptionContainer />
       <Space />
+      <SkillContainer />      
     </main>
   );
 };
